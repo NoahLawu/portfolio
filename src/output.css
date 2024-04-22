@@ -1055,6 +1055,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar-fixed {
   position: fixed;
   z-index: 999;
@@ -1099,7 +1103,6 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .portfolio {
-    /* width: 40em; */
     height: 20em;
   }
 }
